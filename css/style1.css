@@ -1,0 +1,37 @@
+:root{
+    --tom1: rgba(144, 40, 40, 0.673);
+    --tom2: rgba(244, 214, 46, 0.676);
+    --corFundo:rgb(227, 215, 163);
+    --fonteBody: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--corFundo);
+    font-family: var(--fonteBody);
+}
+
+main{
+    background-color: var(--tom2);
+    max-width: 800px;
+    min-width: 550px;
+}
+
+#relativa{
+    position: relative;
+    background-color: var(--tom1);
+    /*padding: 50px 50px;*/
+    margin-bottom: 20px;
+    padding: 30% 50% 30% 30%;
+}
+#absoluta{
+    position: absolute;
+    top:5%;
+    left: 2%;
+    width: 96%;
+    height: 90%;
+}
+
+ul{
+    columns: 2;
+    list-style: '\1F383';
+}

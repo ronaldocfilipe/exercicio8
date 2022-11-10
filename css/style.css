@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/IDroid.otf') format('opentype')  
+}
+
+
+/*
+cores:
+#ebe5c5;
+#83e1ad; 
+#3ddc84; 
+#2fa866; 
+#1a5c37;
+#063d1e; 
+*/
+body{
+    background-color:#ebe5c5;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(#2fa866, #063d1e);
+    color: white;
+    /*margin: 0px;*/
+    height: 200px;
+    padding: 10px;
+    box-shadow: 0px 2px 8px #00000069;
+}
+
+nav{
+    border-radius: 0px 0px 10px 10px;
+    background-color: #063d1e;
+    padding: 5px;
+}
+
+nav > a, nav > a:visited {
+    font: 16px Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #83e1ad;
+    margin-left: 20px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+nav > a:hover{
+    color: #3ddc84;
+   /* background-color: #2fa866;*/
+}
+
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 8px #00000069;
+    background-color: white;
+    line-height: 30px;
+}
+
+main p{
+    text-indent: 30px;
+    color: black;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+article{
+    padding: 20px 20px;
+}
+
+article > h2{
+    color: #1a5c37;
+    font: 20.8px Android, cursive;
+    background-image: linear-gradient(to right, #3ddc84, white);
+    padding-left: 10px;
+}
+
+.h1header{
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    text-shadow: 0px 2px 8px #00000069;
+}
+
+.g{
+    color: white;
+    font-size: 19.2px;
+    text-align: center;
+    text-shadow: 0px 2px 8px #00000069;
+}
+
+
+.segundotitulo{
+    color: #063d1e;
+    font-family: Android, cursive;
+}
+
+p{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+a[target=_blank]::after {
+    content: '\00A0\1F517';
+
+}
+
+.w3c{
+    text-decoration: none;
+    color:#063d1e;
+    background-color: #3ddc84;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+strong{
+    color: #1a5c37;
+    font-size: 16px;
+}
+ul{
+    list-style-type: '\1F383';
+}
+
+
+div.video {
+    position: relative;
+    padding: 10% 50%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
